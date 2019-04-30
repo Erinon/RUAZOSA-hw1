@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:rowCount="3"
+    android:columnCount="4"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/result_view"
+        android:text="@string/result"
+        android:layout_gravity="end"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:maxLength="12"
+        android:layout_columnSpan="4">
+    </TextView>
+
+    <Button
+        android:id="@+id/button_seven"
+        android:text="@string/btn_7"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/button_eight"
+        android:text="@string/btn_8"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button_nine"
+        android:text="@string/btn_9"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/button_plus"
+        android:text="@string/btn_plus"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button_four"
+        android:text="@string/btn_4"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button_five"
+        android:text="@string/btn_5"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button_six"
+        android:text="@string/btn_6"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button_minus"
+        android:text="@string/btn_minus"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button_one"
+        android:text="@string/btn_1"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button_two"
+        android:text="@string/btn_2"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button_three"
+        android:text="@string/btn_3"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button_multiply"
+        android:text="@string/btn_mul"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button_comma"
+        android:text="@string/btn_comma"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button_zero"
+        android:text="@string/btn_0"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button_reset"
+        android:text="@string/btn_reset"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button_divide"
+        android:text="@string/btn_div"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button_evaluate"
+        android:text="@string/btn_evaluate"
+        android:layout_columnSpan="4"
+        android:layout_gravity="fill_horizontal"
+        android:textSize="25sp"/>
+
+    </GridLayout>
